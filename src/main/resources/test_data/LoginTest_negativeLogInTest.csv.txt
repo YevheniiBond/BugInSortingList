@@ -1,0 +1,3 @@
+no,email,password,description
+1,+380665631186,StrongPa$$word123,invalid email
+2,+380665631180,StrongPa$$word12,invalid password

@@ -1,0 +1,10 @@
+<suite name="SecondTestSuite"  thread-count="2">
+
+    <test name="ChangeLocationTest-FF">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.ChangeLocationTest">
+            </class>
+        </classes>
+    </test>
+</suite>

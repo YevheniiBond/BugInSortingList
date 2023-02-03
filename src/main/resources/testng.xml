@@ -1,0 +1,28 @@
+<suite name="FirstTestSuite" parallel = "tests" thread-count="2">
+
+    <test name="LogInTest-FF">
+<!--        <parameter name="browser" value="firefox"/>-->
+        <classes>
+            <class name="tests.LoginTest">
+            <methods>
+                <include
+                        name="positiveLoginTest"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="LogInTest-CH">
+<!--        <parameter name="browser" value="chrome"/>-->
+
+        <classes>
+            <class name="tests.LoginTest">
+            <methods>
+                <include
+                        name="positiveLoginTest"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
